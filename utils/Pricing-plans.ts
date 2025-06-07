@@ -14,11 +14,11 @@ export const Pricingplans = [
     paymentLink:
       process.env.NODE_ENV === "development"
         ? "https://buy.stripe.com/test_3cIfZh811arG9xhcLCeQM01"
-        : "",
+        : "https://buy.stripe.com/test_3cIfZh811arG9xhcLCeQM01",
     priceId:
       process.env.NODE_ENV === "development"
         ? "price_1RTRclFVcghxbGQ726B22zht"
-        : "",
+        : "price_1RTRclFVcghxbGQ726B22zht",
   },
 
   {
@@ -35,10 +35,10 @@ export const Pricingplans = [
     paymentLink:
       process.env.NODE_ENV === "development"
         ? "https://buy.stripe.com/test_aFaaEXepp57mbFpfXOeQM00"
-        : "",
+        : "https://buy.stripe.com/test_aFaaEXepp57mbFpfXOeQM00",
     priceId:
       process.env.NODE_ENV === "development"
         ? "price_1RTRdmFVcghxbGQ70cOP98sH"
-        : "",
+        : "price_1RTRdmFVcghxbGQ70cOP98sH",
   },
 ];
